@@ -1,10 +1,12 @@
 {
   "name": "aintandem-agent-team",
-  "displayName": "AInTandem Agent Team",
-  "description": "Collection of specialized agents for AInTandem development workflows. Includes SDK maintainer and more agents to come.",
-  "plugins": {
-    "sdk-maintainer": {
+  "owner": {
+    "name": "Lex Yang"
+  },
+  "plugins": [
+    {
+      "name": "sdk-maintainer",
       "source": "./plugins/sdk-maintainer"
     }
-  }
+  ]
 }
