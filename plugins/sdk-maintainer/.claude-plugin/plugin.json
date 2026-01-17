@@ -1,0 +1,11 @@
+{
+  "name": "sdk-maintainer",
+  "version": "0.1.0",
+  "description": "Automates SDK maintenance for AInTandem Orchestrator SDK. Handles API changes, generates types and tests.",
+  "author": {
+    "name": "Lex Yang"
+  },
+  "requires": {
+    "claude-code": ">=2.0.0"
+  }
+}
