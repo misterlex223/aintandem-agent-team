@@ -11,8 +11,8 @@
   "keywords": ["testing", "frontend", "e2e", "automation", "qa"],
   "mcpServers": {
     "playwright": {
-      "command": "npx",
-      "args": ["@playwright/mcp"],
+      "command": "/usr/local/bin/playwright-mcp-wrapper.sh",
+      "args": ["--config", "/home/flexy/.claude/playwright-mcp.config.json"],
       "description": "Playwright MCP Server - AI browser automation for frontend testing"
     }
   }
