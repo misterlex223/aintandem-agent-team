@@ -3,6 +3,12 @@
   "owner": {
     "name": "Lex Yang"
   },
+  "commands": [
+    {
+      "name": "add-gitcode-mirror",
+      "source": "./commands/add-gitcode-mirror.md"
+    }
+  ],
   "plugins": [
     {
       "name": "sdk-maintainer",
@@ -11,6 +17,10 @@
     {
       "name": "frontend-tester",
       "source": "./plugins/frontend-tester"
+    },
+    {
+      "name": "kai-notifier",
+      "source": "./plugins/kai-notifier"
     }
   ]
 }

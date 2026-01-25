@@ -1,0 +1,19 @@
+{
+  "name": "kai-notifier",
+  "version": "1.0.0",
+  "description": "Kai Notify Plugin - Multi-platform notifications (LINE, Slack) when tasks are completed",
+  "author": {
+    "name": "Lex Yang"
+  },
+  "homepage": "https://github.com/misterlex223/aintandem-agent-team",
+  "repository": "https://github.com/misterlex223/aintandem-agent-team",
+  "license": "MIT",
+  "keywords": ["notification", "line", "slack", "alert", "messaging", "multi-platform"],
+  "mcpServers": {
+    "kai-notify": {
+      "command": "npx",
+      "args": ["-y", "kai-notify", "--mcp"],
+      "description": "Kai Notify MCP Server - Multi-platform notifications (LINE, Slack)"
+    }
+  }
+}
