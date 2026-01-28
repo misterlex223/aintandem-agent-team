@@ -1,4 +1,5 @@
 ---
+name: install-marketplace-commands
 description: 安裝 marketplace 層級的 commands 到使用者的 commands 目錄
 argument-hint: [--force]
 allowed-tools: Bash

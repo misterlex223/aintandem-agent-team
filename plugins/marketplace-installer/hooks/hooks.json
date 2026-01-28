@@ -1,0 +1,14 @@
+{
+  "SessionStart": [
+    {
+      "matcher": ".*",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "Check if we're in a marketplace directory by looking for .claude-plugin/marketplace.json. If found, read it and check if there are any uninstalled commands by comparing with the user's commands directory (~/.claude/commands/). If there are uninstalled commands, display a friendly message listing them and suggest running /install-marketplace-commands to install them.",
+          "timeout": 10
+        }
+      ]
+    }
+  ]
+}

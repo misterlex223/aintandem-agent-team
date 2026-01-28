@@ -2,20 +2,7 @@
   "name": "marketplace-installer",
   "description": "自動安裝 marketplace 層級的 commands 到使用者的 commands 目錄",
   "version": "1.0.0",
-  "author": "Lex Yang",
-  "commands": [
-    {
-      "name": "install-marketplace-commands",
-      "source": "./commands/install-marketplace-commands.md"
-    }
-  ],
-  "skills": [
-    {
-      "name": "marketplace-installer",
-      "source": "./skills/marketplace-installer/SKILL.md"
-    }
-  ],
-  "hooks": {
-    "SessionStart": "./hooks/session-start.md"
+  "author": {
+    "name": "Lex Yang"
   }
 }
