@@ -1,0 +1,12 @@
+{
+  "name": "version-manager",
+  "version": "1.0.0",
+  "description": "Version Management Plugin - Automate version release workflow with PRD snapshots, changelog tracking, and git operations",
+  "author": {
+    "name": "Lex Yang"
+  },
+  "homepage": "https://gitcode.com/misterlex223/aintandem-agent-team",
+  "repository": "https://gitcode.com/misterlex223/aintandem-agent-team",
+  "license": "MIT",
+  "keywords": ["version", "release", "changelog", "semver", "git"]
+}

@@ -1,0 +1,14 @@
+{
+  "currentVersion": "0.0.0",
+  "nextVersion": null,
+  "nextVersionType": null,
+  "status": "planning",
+  "lastUpdated": null,
+  "features": [],
+  "releaseChecklist": {
+    "featuresComplete": false,
+    "tested": false,
+    "docsUpdated": false,
+    "migrationReady": false
+  }
+}
