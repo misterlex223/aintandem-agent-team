@@ -1,7 +1,7 @@
 {
   "name": "frontend-tester",
-  "version": "1.0.0",
-  "description": "Frontend Testing Plugin - AI-powered test engineer for validating web applications against product specifications",
+  "version": "2.0.0",
+  "description": "Frontend Testing Plugin - AI-powered acceptance testing with PRD-driven test plan generation, Playwright E2E, and API testing",
   "author": {
     "name": "Lex Yang"
   },
