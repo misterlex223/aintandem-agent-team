@@ -5,11 +5,15 @@
   },
   "commands": [
     {
-      "name": "add-gitcode-mirror",
-      "source": "./commands/add-gitcode-mirror.md"
+      "name": "add-git-mirror",
+      "source": "./commands/add-git-mirror.md"
     }
   ],
   "plugins": [
+    {
+      "name": "marketplace-installer",
+      "source": "./plugins/marketplace-installer"
+    },
     {
       "name": "sdk-maintainer",
       "source": "./plugins/sdk-maintainer"
@@ -21,6 +25,10 @@
     {
       "name": "kai-notifier",
       "source": "./plugins/kai-notifier"
+    },
+    {
+      "name": "version-manager",
+      "source": "./plugins/version-manager"
     }
   ]
 }
